@@ -31,31 +31,16 @@
                 <button class="login-btn">Order Now</button>
 
                 <script>
+                    const message = "I want to buy some fresh vegetables"; 
                     const phoneNumber = "+917999541041"; 
+                    const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
                     
-                    document.querySelector(".card-btn").addEventListener("click", () => {
-                     
-                      if (navigator.geolocation) {
-                        navigator.geolocation.getCurrentPosition(position => {                      
-                          const lat = position.coords.latitude;
-                          const lon = position.coords.longitude;                        
-                          const message = `I want to buy this at location (${lat}, ${lon})`;                  
-                         
-                          const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;                    
-                        
-                          window.location.href = url;
-                        }, error => {
-                          console.error(error);
-                          
-                        });
-                      } else {
-                        console.error("Geolocation is not supported by this browser");
-                       
-                      }
+                    document.querySelector(".login-btn").addEventListener("click", () => {
+                      window.location.href = url;
                     });
-                    </script>                 
-                                                     
-               <!-- <button class="login-btn" type="button"><span class="cover"></span>LOG IN</button> -->
+                    </script>
+              
+                <!-- <button class="login-btn" type="button"><span class="cover"></span>LOG IN</button> -->
             </div>
         </div>
     </div>
@@ -74,29 +59,14 @@
                     <button class="card-btn">Buy Now</button>
 
                     <script>
+                        const message = "I want to buy some fresh vegetables"; 
                         const phoneNumber = "+917999541041"; 
+                        const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
                         
                         document.querySelector(".card-btn").addEventListener("click", () => {
-                         
-                          if (navigator.geolocation) {
-                            navigator.geolocation.getCurrentPosition(position => {                      
-                              const lat = position.coords.latitude;
-                              const lon = position.coords.longitude;                        
-                              const message = `I want to buy this at location (${lat}, ${lon})`;                  
-                             
-                              const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;                    
-                            
-                              window.location.href = url;
-                            }, error => {
-                              console.error(error);
-                              
-                            });
-                          } else {
-                            console.error("Geolocation is not supported by this browser");
-                           
-                          }
+                          window.location.href = url;
                         });
-                        </script>  
+                        </script>
                 </div>
                 <div class="product-info">
                     <h2 class="product-brand">Tomato (टमाटर)</h2>
@@ -111,29 +81,14 @@
                     <button class="card-btn">Buy Now</button>
 
                     <script>
+                        const message = "I want to buy some fresh vegetables"; 
                         const phoneNumber = "+917999541041"; 
+                        const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
                         
                         document.querySelector(".card-btn").addEventListener("click", () => {
-                         
-                          if (navigator.geolocation) {
-                            navigator.geolocation.getCurrentPosition(position => {                      
-                              const lat = position.coords.latitude;
-                              const lon = position.coords.longitude;                        
-                              const message = `I want to buy this at location (${lat}, ${lon})`;                  
-                             
-                              const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;                    
-                            
-                              window.location.href = url;
-                            }, error => {
-                              console.error(error);
-                              
-                            });
-                          } else {
-                            console.error("Geolocation is not supported by this browser");
-                           
-                          }
+                          window.location.href = url;
                         });
-                        </script>  
+                        </script>
                         </div>
 
                 <div class="product-info">
@@ -149,29 +104,14 @@
                     <button class="card-btn">Buy Now</button>
 
                     <script>
+                        const message = "I want to buy some fresh vegetables"; 
                         const phoneNumber = "+917999541041"; 
+                        const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
                         
                         document.querySelector(".card-btn").addEventListener("click", () => {
-                         
-                          if (navigator.geolocation) {
-                            navigator.geolocation.getCurrentPosition(position => {                      
-                              const lat = position.coords.latitude;
-                              const lon = position.coords.longitude;                        
-                              const message = `I want to buy this at location (${lat}, ${lon})`;                  
-                             
-                              const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;                    
-                            
-                              window.location.href = url;
-                            }, error => {
-                              console.error(error);
-                              
-                            });
-                          } else {
-                            console.error("Geolocation is not supported by this browser");
-                           
-                          }
+                          window.location.href = url;
                         });
-                        </script>  
+                        </script>
                 </div>
 
 
@@ -188,29 +128,14 @@
                     <button class="card-btn">Buy Now</button>
 
                     <script>
+                        const message = "I want to buy some fresh vegetables"; 
                         const phoneNumber = "+917999541041"; 
+                        const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
                         
                         document.querySelector(".card-btn").addEventListener("click", () => {
-                         
-                          if (navigator.geolocation) {
-                            navigator.geolocation.getCurrentPosition(position => {                      
-                              const lat = position.coords.latitude;
-                              const lon = position.coords.longitude;                        
-                              const message = `I want to buy this at location (${lat}, ${lon})`;                  
-                             
-                              const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;                    
-                            
-                              window.location.href = url;
-                            }, error => {
-                              console.error(error);
-                              
-                            });
-                          } else {
-                            console.error("Geolocation is not supported by this browser");
-                           
-                          }
+                          window.location.href = url;
                         });
-                        </script>  
+                        </script>
                 </div>
 
                 <div class="product-info">
@@ -226,29 +151,14 @@
                     <button class="card-btn">Buy Now</button>
 
                     <script>
+                        const message = "I want to buy some fresh vegetables"; 
                         const phoneNumber = "+917999541041"; 
+                        const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
                         
                         document.querySelector(".card-btn").addEventListener("click", () => {
-                         
-                          if (navigator.geolocation) {
-                            navigator.geolocation.getCurrentPosition(position => {                      
-                              const lat = position.coords.latitude;
-                              const lon = position.coords.longitude;                        
-                              const message = `I want to buy this at location (${lat}, ${lon})`;                  
-                             
-                              const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;                    
-                            
-                              window.location.href = url;
-                            }, error => {
-                              console.error(error);
-                              
-                            });
-                          } else {
-                            console.error("Geolocation is not supported by this browser");
-                           
-                          }
+                          window.location.href = url;
                         });
-                        </script>  
+                        </script>
                 </div>
 
 
@@ -263,30 +173,16 @@
                     <span class="discount-tag">5% off</span>
                     <img src="Methi.jpeg" class="product-thumb" alt="">
                     <button class="card-btn">Buy Now</button>
+
                     <script>
+                        const message = "I want to buy some fresh vegetables"; 
                         const phoneNumber = "+917999541041"; 
+                        const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
                         
                         document.querySelector(".card-btn").addEventListener("click", () => {
-                         
-                          if (navigator.geolocation) {
-                            navigator.geolocation.getCurrentPosition(position => {                      
-                              const lat = position.coords.latitude;
-                              const lon = position.coords.longitude;                        
-                              const message = `I want to buy this at location (${lat}, ${lon})`;                  
-                             
-                              const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;                    
-                            
-                              window.location.href = url;
-                            }, error => {
-                              console.error(error);
-                              
-                            });
-                          } else {
-                            console.error("Geolocation is not supported by this browser");
-                           
-                          }
+                          window.location.href = url;
                         });
-                        </script>  
+                        </script>
                 </div>
 
 
@@ -303,29 +199,14 @@
                     <button class="card-btn">Buy Now</button>
 
                     <script>
+                        const message = "I want to buy some fresh vegetables"; 
                         const phoneNumber = "+917999541041"; 
+                        const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
                         
                         document.querySelector(".card-btn").addEventListener("click", () => {
-                         
-                          if (navigator.geolocation) {
-                            navigator.geolocation.getCurrentPosition(position => {                      
-                              const lat = position.coords.latitude;
-                              const lon = position.coords.longitude;                        
-                              const message = `I want to buy this at location (${lat}, ${lon})`;                  
-                             
-                              const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;                    
-                            
-                              window.location.href = url;
-                            }, error => {
-                              console.error(error);
-                              
-                            });
-                          } else {
-                            console.error("Geolocation is not supported by this browser");
-                           
-                          }
+                          window.location.href = url;
                         });
-                        </script>  
+                        </script>
                 </div>
 
 
@@ -342,29 +223,14 @@
                     <button class="card-btn">Buy Now</button>
 
                     <script>
+                        const message = "I want to buy some fresh vegetables"; 
                         const phoneNumber = "+917999541041"; 
+                        const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
                         
                         document.querySelector(".card-btn").addEventListener("click", () => {
-                         
-                          if (navigator.geolocation) {
-                            navigator.geolocation.getCurrentPosition(position => {                      
-                              const lat = position.coords.latitude;
-                              const lon = position.coords.longitude;                        
-                              const message = `I want to buy this at location (${lat}, ${lon})`;                  
-                             
-                              const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;                    
-                            
-                              window.location.href = url;
-                            }, error => {
-                              console.error(error);
-                              
-                            });
-                          } else {
-                            console.error("Geolocation is not supported by this browser");
-                           
-                          }
+                          window.location.href = url;
                         });
-                        </script>  
+                        </script>
                 </div>
 
 
@@ -381,29 +247,14 @@
                     <button class="card-btn">Buy Now</button>
 
                     <script>
+                        const message = "I want to buy some fresh vegetables"; 
                         const phoneNumber = "+917999541041"; 
+                        const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
                         
                         document.querySelector(".card-btn").addEventListener("click", () => {
-                         
-                          if (navigator.geolocation) {
-                            navigator.geolocation.getCurrentPosition(position => {                      
-                              const lat = position.coords.latitude;
-                              const lon = position.coords.longitude;                        
-                              const message = `I want to buy this at location (${lat}, ${lon})`;                  
-                             
-                              const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;                    
-                            
-                              window.location.href = url;
-                            }, error => {
-                              console.error(error);
-                              
-                            });
-                          } else {
-                            console.error("Geolocation is not supported by this browser");
-                           
-                          }
+                          window.location.href = url;
                         });
-                        </script>  
+                        </script>
                 </div>
 
 
@@ -418,30 +269,16 @@
                     <span class="discount-tag">5% off</span>
                     <img src="card10.jpg" class="product-thumb" alt="">
                     <button class="card-btn">Buy Now</button>
+
                     <script>
+                        const message = "I want to buy some fresh vegetables"; 
                         const phoneNumber = "+917999541041"; 
+                        const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
                         
                         document.querySelector(".card-btn").addEventListener("click", () => {
-                         
-                          if (navigator.geolocation) {
-                            navigator.geolocation.getCurrentPosition(position => {                      
-                              const lat = position.coords.latitude;
-                              const lon = position.coords.longitude;                        
-                              const message = `I want to buy this at location (${lat}, ${lon})`;                  
-                             
-                              const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;                    
-                            
-                              window.location.href = url;
-                            }, error => {
-                              console.error(error);
-                              
-                            });
-                          } else {
-                            console.error("Geolocation is not supported by this browser");
-                           
-                          }
+                          window.location.href = url;
                         });
-                        </script>  
+                        </script>
                 </div>
 
 
